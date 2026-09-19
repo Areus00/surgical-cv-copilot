@@ -1,0 +1,27 @@
+# macOS system files
+.DS_Store
+
+# Python / Virtual Environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# C++ / CMake / CUDA Build directories
+build/
+bin/
+*.out
+*.engine
+*.so
+*.dylib
+
+# Model Weights & Raw Datasets (Store externally / LFS)
+*.pt
+*.onnx
+*.weights
+data/
+datasets/
+runs/
+
+# Local configuration & environment variables
+.env
